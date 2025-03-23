@@ -1,0 +1,247 @@
+/* Ustawienia dla wszystkich elementów, aby każdy miał zdefiniowane box-sizing, margin i padding */
+* {
+    box-sizing: border-box; /* Ustawia box-sizing na border-box, co oznacza, że padding i border nie zwiększają wymiarów elementu */
+    margin: 0; /* Usuwa domyślne marginesy */
+    padding: 0; /* Usuwa domyślne wypełnienie */
+}
+
+/* Style dla całego body */
+body {
+    font-family: 'Poppins', sans-serif; /* Ustawia font na 'Poppins', a jeśli nie jest dostępny, używa sans-serif */
+    line-height: 1.6; /* Ustala odstęp między wierszami tekstu */
+    background-color: #f4f4f9; /* Ustawia kolor tła na jasny odcień szarości */
+    color: #1b1b1b; /* Ustawia kolor tekstu na bardzo ciemny odcień szarości */
+    padding: 20px; /* Dodaje 20px wypełnienia wewnętrznego dla body */
+}
+
+/* Stylizacja nagłówka */
+header {
+    text-align: center; /* Ustawia tekst w nagłówku na środek */
+    background: linear-gradient(135deg, #cc00ff, #010380); /* Tworzy tło w postaci gradientu od fioletowego do niebieskiego */
+    color: white; /* Kolor tekstu na biały */
+    padding: 30px; /* Dodaje 30px wypełnienia wokół tekstu */
+    border-radius: 10px; /* Zaokrągla rogi nagłówka */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Dodaje cień do nagłówka */
+}
+
+header img {
+    max-width: 120px; /* Ustawia maksymalną szerokość obrazka w nagłówku na 120px */
+    margin-bottom: 10px; /* Dodaje przestrzeń poniżej obrazka */
+}
+
+header h1 {
+    font-size: 2.5em; /* Ustawia rozmiar czcionki nagłówka na 2.5em */
+    margin-bottom: 10px; /* Dodaje przestrzeń poniżej nagłówka */
+}
+
+header a {
+    color: white; /* Kolor linku na biały */
+    text-decoration: none; /* Usuwa podkreślenie linku */
+    font-weight: bold; /* Ustawia pogrubienie tekstu linku */
+    padding: 8px 15px; /* Dodaje wypełnienie wokół linku */
+    border: 2px solid white; /* Dodaje biały obramowanie wokół linku */
+    border-radius: 5px; /* Zaokrągla rogi linku */
+    transition: 0.3s; /* Dodaje animację przejścia przy zmianie stanu */
+}
+
+header a:hover {
+    background-color: white; /* Zmienia tło na białe, gdy kursor znajduje się nad linkiem */
+    color: #0000ff; /* Zmienia kolor tekstu na niebieski przy najechaniu */
+}
+
+/* Stylizacja nawigacji */
+nav {
+    margin: 20px 0; /* Dodaje przestrzeń powyżej i poniżej nawigacji */
+    text-align: center; /* Ustawia tekst w nawigacji na środek */
+}
+
+nav ul {
+    list-style: none; /* Usuwa punkty listy */
+    display: flex; /* Ustawia elementy listy w wierszu (eliminując domyślną pionową listę) */
+    justify-content: center; /* Wyrównuje elementy nawigacji do środka */
+    background: #1b1b1b; /* Ustawia tło na ciemnoszare */
+    padding: 10px; /* Dodaje 10px wypełnienia wokół elementów nawigacji */
+    border-radius: 10px; /* Zaokrągla rogi nawigacji */
+}
+
+nav ul li {
+    margin: 0 15px; /* Dodaje przestrzeń między elementami listy */
+}
+
+nav ul li a {
+    color: white; /* Kolor tekstu linków na biały */
+    text-decoration: none; /* Usuwa podkreślenie z linków */
+    padding: 10px 15px; /* Dodaje wypełnienie wokół linków */
+    transition: background 0.3s; /* Ustawia animację tła przy najechaniu */
+    border-radius: 5px; /* Zaokrągla rogi linków */
+}
+
+nav ul li a:hover {
+    background: #0003b9; /* Zmienia tło na niebieskie, gdy kursor jest nad linkiem */
+}
+
+/* Stylizacja sekcji */
+section {
+    margin: 20px auto; /* Ustawia marginesy sekcji: 20px na górze i na dole, auto na boki (wyśrodkowanie) */
+    padding: 20px; /* Dodaje 20px wypełnienia wewnętrznego */
+    max-width: 900px; /* Ustawia maksymalną szerokość sekcji na 900px */
+    background: white; /* Ustawia tło sekcji na biały */
+    border-radius: 8px; /* Zaokrągla rogi sekcji */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Dodaje cień do sekcji */
+    transition: transform 0.3s; /* Dodaje animację transformacji przy najechaniu */
+}
+
+section:hover {
+    transform: scale(1.02); /* Powiększa sekcję przy najechaniu na nią */
+}
+
+section h2 {
+    color: #0000ff; /* Kolor nagłówków sekcji na niebieski */
+    margin-bottom: 15px; /* Dodaje przestrzeń poniżej nagłówka */
+}
+
+/* Stylizacja artykułów w sekcji */
+article {
+    margin-bottom: 20px; /* Dodaje przestrzeń poniżej każdego artykułu */
+    padding: 15px; /* Dodaje wypełnienie wewnętrzne artykułowi */
+    border-radius: 8px; /* Zaokrągla rogi artykułu */
+    background: #f9f9f9; /* Ustawia tło artykułu na jasnoszare */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Dodaje cień do artykułu */
+}
+
+article img {
+    display: block; /* Ustawia obrazek na blokowy, by go wyśrodkować */
+    max-width: 150px; /* Ustawia maksymalną szerokość obrazka na 150px */
+    margin: 0 auto 10px; /* Wyśrodkowuje obrazek i dodaje przestrzeń poniżej */
+}
+
+article h3 {
+    text-align: center; /* Ustawia nagłówek artykułu na środek */
+    color: #0000ff; /* Kolor nagłówka na niebieski */
+}
+
+/* Stylizacja dla wszystkich nagłówków h3 */
+h3 {
+    position: relative; /* Ustawia pozycję względną dla nagłówka */
+    color: #0000ff; /* Kolor nagłówka na niebieski */
+    overflow: hidden; /* Ukrywa nadmiar zawartości poza nagłówkiem */
+}
+
+h3::before {
+    content: ''; /* Tworzy pseudo-element przed nagłówkiem */
+    position: absolute; /* Ustawia pozycję pseudo-elementu absolutnie względem rodzica */
+    top: 0; /* Ustawia pseudo-element na górze nagłówka */
+    left: -100%; /* Ustawia początkową pozycję na lewo poza nagłówkiem */
+    width: 100%; /* Szerokość pseudo-elementu to 100% szerokości nagłówka */
+    height: 100%; /* Wysokość pseudo-elementu to 100% wysokości nagłówka */
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)); /* Gradient, który przechodzi od białego przez przezroczysty */
+    animation: shine 3s infinite linear; /* Ustala animację "shine" dla pseudo-elementu */
+}
+
+/* Definicja animacji "shine" */
+@keyframes shine {
+    to {
+        left: 100%; /* Przesuwa pseudo-element na prawo, tworząc efekt świecenia */
+    }
+}
+
+/* Stylizacja tabeli */
+table {
+    width: 100%; /* Ustawia szerokość tabeli na 100% szerokości kontenera */
+    border-collapse: collapse; /* Usuwa przestrzenie między komórkami */
+    margin-top: 20px; /* Dodaje przestrzeń powyżej tabeli */
+    background: #0a0a0a; /* Ustawia tło tabeli na ciemnoszare */
+    border-radius: 8px; /* Zaokrągla rogi tabeli */
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.5); /* Dodaje cień do tabeli */
+    overflow: hidden; /* Ukrywa nadmiar treści poza tabelą */
+}
+
+th {
+    background: linear-gradient(90deg, #000055, #0020d3); /* Tło nagłówka tabeli w postaci gradientu */
+    color: white; /* Kolor tekstu w nagłówkach tabeli na biały */
+    padding: 12px; /* Dodaje 12px wypełnienia wewnętrznego w nagłówkach */
+    text-transform: uppercase; /* Ustawia wszystkie litery na wielkie */
+}
+
+td {
+    padding: 12px; /* Dodaje 12px wypełnienia wewnętrznego w komórkach */
+    text-align: center; /* Ustawia wyrównanie tekstu w komórkach na środek */
+    color: #ffffffcc; /* Kolor tekstu w komórkach na biały z przezroczystością */
+}
+
+tr:nth-child(even) {
+    background-color: rgba(0, 0, 255, 0.15); /* Ustawia tło co drugiego wiersza na niebieski z przezroczystością */
+}
+
+tr:hover {
+    background-color: rgba(0, 255, 255, 0.15); /* Zmienia tło wiersza na jasno niebieskie, gdy kursor jest nad nim */
+    transition: 0.3s; /* Ustawia animację przejścia tła */
+}
+
+
+/* Stylizacja formularza */
+form {
+    display: flex; /* Ustawia formularz jako flexbox, co pozwala na łatwe rozmieszczanie elementów */
+    flex-direction: column; /* Ustawia elementy formularza w kolumnie (domyślnie flexbox ustawia elementy w wierszu) */
+    background: #fff; /* Ustawia tło formularza na biały */
+    padding: 20px; /* Dodaje 20px wypełnienia wewnętrznego formularza */
+    border-radius: 8px; /* Zaokrągla rogi formularza */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Dodaje cień do formularza */
+}
+
+/* Stylizacja etykiet formularza */
+form label {
+    margin-top: 10px; /* Dodaje 10px przestrzeni na górze etykiety */
+    font-weight: bold; /* Ustawia pogrubienie tekstu etykiety */
+}
+
+/* Stylizacja pól wejściowych, textarea i select */
+form input, form textarea, form select {
+    padding: 10px; /* Dodaje 10px wypełnienia wewnętrznego w polach */
+    margin-top: 5px; /* Dodaje przestrzeń nad polami wejściowymi */
+    border: 1px solid #ddd; /* Ustawia jasnoszare obramowanie dla pól */
+    border-radius: 5px; /* Zaokrągla rogi pól */
+    width: 100%; /* Ustawia szerokość pól na 100% szerokości kontenera formularza */
+}
+
+/* Stylizacja przycisków formularza (submit i reset) */
+form input[type="submit"], form input[type="reset"] {
+    background-color: #0000ff; /* Ustawia tło przycisków na niebieskie */
+    color: white; /* Kolor tekstu przycisków na biały */
+    border: none; /* Usuwa obramowanie przycisków */
+    cursor: pointer; /* Ustawia kursor na wskaźnik (ręka) podczas najechania na przycisk */
+    margin-top: 10px; /* Dodaje przestrzeń nad przyciskiem */
+    padding: 10px 20px; /* Dodaje wypełnienie wewnętrzne przycisków */
+    transition: 0.3s; /* Dodaje animację dla zmian w wyglądzie przycisku (np. zmiana tła) */
+}
+
+/* Stylizacja przycisków formularza podczas najechania */
+form input[type="submit"]:hover, form input[type="reset"]:hover {
+    background-color: #04006d; /* Zmienia tło przycisków na ciemny niebieski podczas najechania */
+}
+
+/* Stylizacja stopki */
+footer {
+    text-align: center; /* Ustawia tekst w stopce na środek */
+    padding: 15px; /* Dodaje 15px wypełnienia wewnętrznego */
+    background-color: #1b1b1b; /* Ustawia tło stopki na ciemnoszare */
+    color: white; /* Kolor tekstu na biały */
+    margin-top: 20px; /* Dodaje przestrzeń powyżej stopki */
+    border-radius: 8px; /* Zaokrągla rogi stopki */
+    font-size: 0.9em; /* Ustawia mniejszy rozmiar czcionki w stopce */
+}
+
+/* Media query dla ekranów o szerokości maksymalnej 768px (mobilne urządzenia) */
+@media (max-width: 768px) {
+    /* Dostosowanie nawigacji na mniejszych ekranach */
+    nav ul {
+        flex-direction: column; /* Ustawia elementy nawigacyjne w kolumnie (domyślnie były w wierszu) */
+        text-align: center; /* Ustawia wyrównanie tekstu w nawigacji na środek */
+        padding: 10px; /* Dodaje wypełnienie wokół nawigacji */
+    }
+
+    /* Dostosowanie poszczególnych elementów nawigacji */
+    nav ul li {
+        margin: 5px 0; /* Dodaje przestrzeń między elementami listy w nawigacji */
+    }
+}

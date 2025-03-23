@@ -1,31 +1,42 @@
-# Projekt: Strona internetowa w HTML5
+# README - Zadanie Laboratorium 2 (HTML + CSS)
 
-## Opis
+## Opis zadania
 
-Projekt polega na przygotowaniu walidującej się strony internetowej w standardzie HTML5. Stopień trudności (różnorodność użytych elementów HTML) ma wpływ na ocenę końcową.
+**Zadanie Laboratorium 2 [5 pkt] (HTML + CSS)**  
+**Data: 16.03.2025 r.**
 
-**Tematyka strony:** Twoje zainteresowania.
+Celem zadania jest sformatowanie wyglądu strony HTML z zadania Laboratorium 1 przy użyciu zewnętrznego arkusza styli w standardzie CSS3.
 
 ## Wymagania
 
-- Użycie nowych znaczników HTML5:
-  - `<header>`
-  - `<article>`
-  - `<section>`
-  - `<footer>`
-  - `<nav>`
-- Strona powinna zawierać menu z odwołaniami do jej fragmentów (nie mogą być podstrony).
-- Źródła użytych materiałów muszą być odpowiednio oznaczone.
+1. **Zewnętrzny arkusz styli:**
+    - Utworzenie zewnętrznego arkusza CSS3.
+    - Arkusz musi walidować się poprawnie.
 
-## Elementy obowiązkowe
+2. **Formatowanie strony:**
+    - Całe formatowanie dokumentu HTML musi zostać przeniesione do zewnętrznego arkusza CSS.
+    - W razie potrzeby można modyfikować kod HTML z zadania 1.
 
-Strona powinna zawierać następujące elementy:
+3. **Ograniczenia:**
+    - Nie można korzystać z gotowych szablonów znalezionych w Internecie.
 
-1. **Obrazek** - osadzenie grafiki w treści strony.
-2. **Obramowany tekst** - tekst powinien być umieszczony w ramce z nazwą obramowania.
-3. **Hiperłącze** - utworzenie co najmniej jednego odnośnika.
-4. **Lista definicji** - lista składająca się z terminów i ich definicji.
-5. **Lista zagnieżdżona** - lista zawierająca inne listy w swoich elementach.
-6. **Tabela** - tabela, w której co najmniej dwie komórki zostaną scalone.
-7. **Formularz** - formularz zawierający co najmniej 8 pól różnych typów, który zostanie wysłany na adres email metodą `POST`.
-8. **Znacznik ****`<pre>`** - użycie znacznika do odpowiedniego przykładu formatowania tekstu.
+4. **Wymagania dotyczące designu:**
+    - Wysoka jakość wykonania, stopień trudności i zaawansowanie użytych technik CSS mają duży wpływ na ocenę.
+
+5. **Techniki CSS:**
+    - Zachęcamy do stosowania zaawansowanych technik CSS, np. zmiany kolorów w tabelach, efekty hover, responsywność.
+
+## Przesyłanie rozwiązania
+
+1. **Archiwum ZIP**:
+    - Rozwiązanie należy wysłać w formacie archiwum ZIP o rozmiarze poniżej 5 MB.
+    - Nazwa pliku: `zad2_css3_nazwisko_nrindeksu.zip`.
+
+## Termin realizacji
+
+- Termin przesyłania: **Dzień przed najbliższymi laboratoriami**, godz. 23:59.
+
+## Dodatkowe uwagi
+
+- Proszę nie korzystać z minimalistycznych rozwiązań.
+- W razie potrzeby można modyfikować HTML z zadania 1, aby poprawić wygląd strony.
